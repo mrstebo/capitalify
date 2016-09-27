@@ -1,5 +1,5 @@
 {
-  "name": "capitalify",
+  "name": "node-capitalify",
   "version": "1.0.0",
   "description": "Capitalifies text",
   "main": "./lib/index.js",
