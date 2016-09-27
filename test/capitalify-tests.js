@@ -2,13 +2,16 @@ var expect = require('chai').expect;
 var capitalify = require('../lib/capitalify');
 
 describe('capitalify', function() {
-  it('should capitalize lower case text', function() {
-    expect(capitalify('hello')).to.equal('Hello');
+  it('should capitalify lower case text', function() {
+    expect(capitalify('hello')).to.equal('HELLO');
   });
-  it('should capitalize upper case text', function() {
-    expect(capitalify('HELLO')).to.equal('Hello');
+  it('should capitalify upper case text', function() {
+    expect(capitalify('HELLO')).to.equal('HELLO');
   });
-  it('should only capitalize the first word', function() {
-    expect(capitalify('some text')).to.equal('Some text');
+  it('should capitalify mixed case text', function() {
+    expect(capitalify('hElLo')).to.equal('HELLO');
+  });
+  it('should only capitalify all the words', function() {
+    expect(capitalify('some text')).to.equal('SOME TEXT');
   });
 });

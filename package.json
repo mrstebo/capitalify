@@ -1,7 +1,7 @@
 {
   "name": "capitalify",
   "version": "1.0.0",
-  "description": "Capitalizes the first letter of a word",
+  "description": "Capitalifies text",
   "main": "./lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --colors",
