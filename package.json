@@ -1,0 +1,38 @@
+{
+  "name": "capitalify",
+  "version": "1.0.0",
+  "description": "Capitalizes the first letter of a word",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --colors",
+    "version:patch": "npm version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrstebo/node-capitalify.git"
+  },
+  "keywords": [
+    "capitalify",
+    "capitalize",
+    "capital"
+  ],
+  "author": {
+    "name": "Steven Atkinson",
+    "email": "mrstebouk@gmail.com",
+    "url": "https://mrstebo.co.uk/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrstebo/node-capitalify/issues"
+  },
+  "homepage": "https://github.com/mrstebo/node-capitalify#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.6.1",
+    "eslint-config-es5": "^0.5.0",
+    "mocha": "^3.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.16.2"
+  }
+}

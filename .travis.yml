@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- 5.1.0
+deploy:
+  provider: npm
+  email: mrstebouk@gmail.com
+  api_key:
+    secure: EkGqThMpzlKdzDFrkwSgi+lvqy0bBulbAQNgmeXh+daDYAv8IYjQBPZ9WL3v7V3iFpsOq8NgN26Gt/PJhEmyh7g01lEstmFnF5FCh7cPgEkmS32z0w199IE2AcUyQbT4uZDBn/43uJndsYJLKZG3X8VC2tGJSM3Fzc3IVckVEXLKD/YM9Btm0gXor/KyoKZMTCEREb51KJ26ct+OqVUmADqQTOMpNaxzHdhKV+jGTre1IhmuikZObRWHFbKjfZF0rKnOgLF3qFUcNeJQrz55SuB71TGXst/oYxiH23GIszp51WWBCAkOwNX8la5zwGaT3suDt3LiGSuWKiDy5YrilPi0MyENM73GOoNykxKXhXRw49OjciyYRoLUqPgTmU1AurRIyATVV1F5tz4wYMMlVx+H2C134q1mxoA9rDDMbditsbG8uWVFszCs2uIf/nx2AEszfzwRWmdwlEVlNocEAKZesELjFMvBFR+XM0eAsHuxamKGMKu0RARvpe0XYRUwWoHzSEmtRtJ8lc4+vb4wX5Pg2/vzjEfsLzEEjkp8xMv4AMUfIDs3vvE5RsKKvaAc9A+5TfuT7hQ7SjUAKWIRDMzOOR/uphrPM2StHN9YJIFu4H7M8Q291KGLgQlc5m+GZWFkEM+DUn80vaC1HC0pc3KlRsx7dnBZ7ilbxrbaPRM=
+  on:
+    tags: true
+    repo: mrstebo/node-capitalify
