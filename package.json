@@ -1,6 +1,6 @@
 {
   "name": "capitalify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Capitalifies text",
   "main": "./lib/index.js",
   "scripts": {
