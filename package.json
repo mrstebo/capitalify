@@ -31,8 +31,5 @@
     "eslint": "^3.6.1",
     "eslint-config-es5": "^0.5.0",
     "mocha": "^3.1.0"
-  },
-  "dependencies": {
-    "lodash": "^4.16.2"
   }
 }
